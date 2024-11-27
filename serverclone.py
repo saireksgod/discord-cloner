@@ -9,7 +9,7 @@ def print_delete(message):
     print(f'{Fore.BLUE}[-]{Style.RESET_ALL} {message}')
 
 def print_warning(message):
-    print(f'{Fore.RED}[WARNING]{Style.RESET_ALL} {message}')
+    print(f'{Fore.MAGENTA}[WARNING]{Style.RESET_ALL} {message}')
 
 
 def print_error(message):
